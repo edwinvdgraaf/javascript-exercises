@@ -4,7 +4,7 @@
 
 1. Make sure you have a node.js installed
   1a. `$ brew install node.js` or the installer from the node.js website
-1. Install this projects dependencies
+1. Install this projects dependencies: `$ npm install`
 1. Run `npm test`
 
 ## Exercise 1 - Working with strings, numbers, arrays and control flows
@@ -16,7 +16,7 @@ we can do powerfull stuff with it.
 ### Tasks
 
 1. Enable exercise 1 in `enabled-exercises.js`
-1. Run the tests by running `$ npm test` or `jest --watch`
+1. Run the tests by running `$ npm test` or `./node_modules/.bin/jest --watch`
 1. Implement the `isString(anyObject)`, `isPalindrome(string)` and `titleize(string)`.
 1. Re-run the test to see if the implementation works
 
